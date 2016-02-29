@@ -1,0 +1,93 @@
+body {
+    background-color: white;
+}
+
+.site-header{
+  position: relative;
+  background-color: white;
+  height: 50px;
+  padding-top: 20px;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.logo{
+  font-family: fontawesome;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 37px;
+  letter-spacing: 3px;
+  color: #555555;
+  display: block;
+  position: absolute;
+  top: 17px;
+  padding-left: 2px;
+}
+
+.righttoptext{
+  float: right;
+  font-style: italic;
+  font-size: 20px;
+  font-family: fontawesome;
+}
+
+.nav-bar{
+  z-index: 1;
+  font-size: 30px;
+  background-color: #5f5f5f;
+  color: #f1f1f1;
+  height: 50px;
+  width: 100%;
+  padding: 0;
+  letter-spacing: 1px;
+}
+.nav-font{
+  font-size: 20px !important;
+  padding-top: 6px !important;
+  padding-bottom: 12px !important;
+  margin: 2%;
+}
+
+.container1{
+  width: 100%;
+  margin: 0 auto;
+}
+.container2{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.list-tim{
+  display: inline-block;;
+}
+.kolom{
+  width: 33.33%;
+  display: block;
+  float:left;
+}
+
+.lingkaran {
+	display: inline-block;
+	margin:7%;
+	width:200px;
+  height:200px;
+  background-color:#e3f2fd;
+  border-radius:50%;
+  overflow : hidden;
+}
+
+.member{
+  font-family:sans-serif;
+
+}
+
+.kanan{
+	float:right;
+	width:200px;
+}
+
+.kiri{
+	float:left;
+	width:200px;
+}
