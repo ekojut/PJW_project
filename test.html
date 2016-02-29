@@ -9,24 +9,90 @@ a:link    {color:grey; background-color:transparent; text-decoration:none}
 a:visited {color:lightblue; background-color:transparent; text-decoration:none}
 a:hover   {color:lightgrey; background-color:black; }
 a:active  {color:Black; background-color:transparent; text-decoration:underline}
+#newline{
+ float:left;
+margin-top: 90px;
+ width:100%;
+}
 #per {
  float:left;
- padding:10px;
  width:100%;
  background-color:lightgrey;
+ padding: 50px 10PX 50px 0;
 }
 #per1 {
  float:right;
  padding:10px;
  width:700px;
+top: 100;
 }
+#nav{
+	height: 20px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,1);
+	z-index: 100;
+}
+#per2{
+	height: 50px;
+	width: 100%;
+	float:top;
+	padding: 100px 0 260px 0;
+	padding-bottom:3px;
+}
+#nav { width: 100%; float: right; margin-top: 0px;}
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	margin-right: 50;
+	list-style: none;	
+}
+
+#nav li{
+	margin-top: 50px;	
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#header { 
+	width: 100%; 
+	background: url('header-bg.png'); 
+	height: 80px; 	
+	position: fixed;
+	margin-top: 10px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url('BG4.png');
+	background-attachment: fixed;
+}
+.content{ margin: 0 auto; width: 960px; }
+#nav li a { color: #fff; opacity:0.6; font-size: 20px; text-decoration: none; font-family: 'Wellfleet'; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 </style>
 
 <body>
-<h1 style="background-color:lightgrey; padding:30px;" >PJW </h1>
-<div style="float:top; padding-bottom:3px;">
- <h2><a href=# >Home </a>  | <a href=# >Profile </a>  |<a href=# >Lorem </a>  | <a href=# >Lorem </a>  |  </h2>
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> PJW PROJECT </a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide5"  title="Next Section" >Slide 5</a></li>
+		<li><a href="#slide4" title="Next Section">Slide 4</a></li>
+		<li><a href="#slide3" title="Next Section">Slide 3</a></li>
+		<li><a  href="#slide2" title="Next Section">PROFILE</a></li>
+		<li><a href="#slide1" class="active" title="Next Section">HOME</a></li>
+	</ul>
+</nav>
 </div>
+</header>
+<div id="newline"></div>
 <div id="per">
 <img src="insideout.png" alt="Foto" style="width:304px;height:228px;float:left">
 <table style="float:left; width:200px">
