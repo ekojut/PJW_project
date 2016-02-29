@@ -48,41 +48,35 @@ body {
   padding-bottom: 12px !important;
   margin: 2%;
 }
-h2{
-  color : white;
-  text-align : center;
+
+.container1{
+  width: 100%;
+  margin: 0 auto;
+}
+.container2{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.list-tim{
+  display: inline-block;;
+}
+.kolom{
+  width: 33.33%;
+  display: block;
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    font-size: 50px;
-}
-
-.title-line::after {
-    content: "";
-    border-bottom: 1px solid rgba(0,0,0,.5);
-    width: 60px;
-    display: inline-block;
-    height: 0;
-    line-height: 0;
-    position: absolute;
-    margin-top: 5px;
-  }
-
-.box1{
-    <!--float:left;-->
-    margin:7%;
-    background-color:transparant;
-    width: 200px;
-    border: none;
-
-.lingkaran{
-	float:left;
+.lingkaran {
+	display: inline-block;
 	margin:7%;
 	width:200px;
   height:200px;
   background-color:#e3f2fd;
   border-radius:50%;
   overflow : hidden;
+}
+
+.member{
+  font-family:sans-serif;
+
 }
