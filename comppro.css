@@ -70,6 +70,13 @@ h1 {
     margin-top: 5px;
   }
 
+.box1{
+    <!--float:left;-->
+    margin:7%;
+    background-color:transparant;
+    width: 200px;
+    border: none;
+
 .lingkaran{
 	float:left;
 	margin:7%;
